@@ -1,0 +1,24 @@
+*{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+}
+
+.table{
+    border: 2px solid black;
+}
+
+body{
+    background-color: bisque;
+}
+
+.table.table-hover{
+    cursor: pointer;
+}
+
+img{
+    width: 200px;
+}
+
