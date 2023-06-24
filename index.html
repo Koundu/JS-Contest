@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>Acciojob Contest</title>
+</head>
+<body>
+    <!--This Code Belongs to the Nav Bar-->
+    <nav id="nav-bar">
+        <p id="header">Header</p>
+        <a href="./index.html"><p id="Signup">Signup</p></a>
+        <a href="./public/index.html"><p id="Profile">Profile</p></a>
+    </nav>
+
+    <!--This Code Belongs to the Input Details for the Signup-->
+    <div class="signUp">
+        <h1>Signup</h1>
+        <input id="Full-Name" onfocus="this.value=''" placeholder="Full Name" type="text" required>
+        <hr>
+        <input id="EMail" onfocus="this.value=''" placeholder="Email" type="email" required>
+        <hr>
+        <input id="Password" onfocus="this.value='';this.type='password'"   placeholder="Password" 
+        required>
+        <hr>
+        <input id="CPassword" onfocus="this.value='';this.type='password'"  placeholder="Confirm Password" required>
+        <hr>
+        <p></p>
+        <button type="submit" id="btn-signUp">Signup</button>  
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

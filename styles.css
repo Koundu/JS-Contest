@@ -1,0 +1,108 @@
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Belanosima', sans-serif;
+    width: auto;
+    height:auto;
+    overflow: hidden;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content:end;
+}
+#nav-bar{
+    overflow-y: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+a:link{
+    text-decoration: none;
+}
+#header{
+    margin-right: 85%;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+#Profile{
+    margin-right: 40px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+#Signup{
+    margin-right: 40px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+input
+{
+    color: gray;
+    border: none;
+}
+
+input:focus{
+    color: white;
+}
+
+
+.signUp{
+    width: 60vw;
+    height: 60vw;
+    align-items: end;
+    margin: 100px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.signUp h1{
+    color: white;
+    margin-bottom: 100px;
+}
+
+.signUp button{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.signUp button:hover{
+    background-color: aquamarine;
+}
+
+
+#profilePage #content
+{
+    font-size: xx-large;
+    margin: 75px;
+}
+
+#profilePage #content button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+}
+
+#profilePage #content button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
